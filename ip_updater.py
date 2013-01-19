@@ -6,8 +6,7 @@ import logging
 
 # Settings
 get_ip_url = 'http://www.myexternalip.com/raw'
-# update_ip_url = 'http://dcdashboard.herokuapp.com/raw'
-update_ip_url = 'http://0.0.0.0:8000/update_ip'
+update_ip_url = 'http://dcdashboard.herokuapp.com/update_ip'
 
 logging.basicConfig(filename='log.txt',level=logging.DEBUG)
 
